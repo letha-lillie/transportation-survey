@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Transportation Survey</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Urgent Transportation Survey!</h2>
+    </div>
+    <form id="transportation_survey">
+      <div class="form-group">
+        <p>At some point in the past year, I have used the following modes of transport to get to work or to school:</p>
+        <input type="checkbox" name="work-transportation" value="bike">Bicyle<br>
+        <input type="checkbox" name="work-transportation" value="car">Automobile<br>
+        <input type="checkbox" name="work-transportation" value="carpool">Carpool<br>
+        <input type="checkbox" name="work-transportation" value="walk">My own two feet<br>
+        <input type="checkbox" name="work-transportation" value="bus">Bus<br>
+        <input type="checkbox" name="work-transportation" value="train">Train<br>
+        <input type="checkbox" name="work-transportation" value="streetcar">Streetcar<br>
+        <input type="checkbox" name="work-transportation" value="taxi">Taxicab<br>
+        <input type="checkbox" name="work-transportation" value="rideshare">Rideshare service such as Lyft or Uber<br>
+        <input type="checkbox" name="work-transportation" value="skateboard">Skateboard<br>
+        <input type="checkbox" name="work-transportation" value="rollerblade">Rollerblades<br>
+        <input type="checkbox" name="work-transportation" value="scooter">Scooter<br>
+        <input type="checkbox" name="work-transportation" value="other">A mode of transportation not dreamt of in your philosophy<br>
+      </div>
+      <div class="form-group">
+        <p>In the past year, I've used the following modes of transport to go have some fun:</p>
+        <input type="checkbox" name="fun-transportation" value="bike"> Bicycle<br>
+        <input type="checkbox" name="fun-transportation" value="car">Automobile<br>
+        <input type="checkbox" name="fun-transportation" value="carpool">Carpool<br>
+        <input type="checkbox" name="fun-transportation" value="walk">My own two feet<br>
+        <input type="checkbox" name="fun-transportation" value="bus">Bus<br>
+        <input type="checkbox" name="fun-transportation" value="train">Train<br>
+        <input type="checkbox" name="fun-transportation" value="streetcar">Streetcar<br>
+        <input type="checkbox" name="fun-transportation" value="taxi">Taxicab<br>
+        <input type="checkbox" name="fun-transportation" value="rideshare">Lyft, Uber, etc.<br>
+        <input type="checkbox" name="fun-transportation" value="skateboard">Skateboard<br>
+        <input type="checkbox" name="fun-transportation" value="rollerblade">Rollerblades<br>
+        <input type="checkbox" name="fun-transportation" value="scooter" Scooter<br>
+        <input type="checkbox" name="fun-transportation" value="other">Another mode of transportation<br>
+      </div>
+      <button type="submit">Submit survey:</button>
+    </form>
+    <span id="work-responses">
+      <p><b>You use the following modes of transportation to get to work or school:</b></p>
+    </span><br>
+    <span id="fun-responses">
+      <p><b>You use the following methods of transport to paint the town red:</b></p>
+    </span>
+  </div>
+</body>
+
+</html>
